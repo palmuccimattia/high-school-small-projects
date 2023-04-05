@@ -1,0 +1,37 @@
+la migliore funzione con la quale lavorare nel cmd è subprocess.getoutput()
+essa esegue i comandi e restituisce gli output
+OCCHIO a scrivere i percorsi con precedenza ai '' e dopo alle ""
+
+L'elaborazione degli output è comoda attraverso tale script di esempio...
+
+>> for riga in subprocess.getoutput('dir C:\\Users\\"Mattia Palmucci"\\Desktop').split("\n"):
+	print(riga)
+
+BUONANOTTE
+
+implementare lo script pyautogui (selenium chiede l'accesso) per raccogliere
+screen della cronologia di chrome e inviarli via email (stessa cosa si può
+fare con i keylogger)
+
+Perciò implementare il pyautogui e soprattutto il mittente di email.
+
+-------------------------------------------------------------------------
+
+SONO RIUSCITO A CREARE LA SCORCIATOIA PER ESEGUIRE I FILE PYTHON SENZA
+DOVER INSTALLARE IL SETUP PYTHON
+
+DA ADESSO BISOGNA CREARE IL FILE VBS (cerca su internet) PER ESEGUIRE
+IN BACKGROUND IL FILE BAT CHE PERMETTE L'AVVIO DI 
+\\
+pythonw.exe "C:\\Users\\Mattia Palmucci\\Desktop\\ProvaMultiprocess.py"
+\\
+HO ELIMINATO TUTTO SU STARTUP PER ESSERE SICURO CHE NON PARTA, Lì VA
+MESSO IL FILE VBS DA PROVARE
+
+Il percorso dove è presente Python (che in realtà può stare ovunque
+non ha senso ciò che scrivo) è su
+
+>> C:\Users\Mattia Palmucci\AppData\Local\Programs\Python\Python39-32
+
+Mentre per avviare all'accensione o faccio WIN+R e scrivo "shell:startup"
+da lì vedo la directory se poi mi serve...

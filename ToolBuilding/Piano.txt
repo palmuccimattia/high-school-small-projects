@@ -1,0 +1,12 @@
+BadUsb con script di AutomaticKeyboard:
+> ENTRATA NEL TERMINALE WINDOWS
+> INSTALLAZIONE DI UN PACCHETTO CHE PERMETTE DI INSTALLARE PYTHON DA TERMINALE
+	> win + X
+	> 11 FRECCE GIU'
+	> SINISTRA E INVIO
+	> SCRIVERE "Set-ExecutionPolicy AllSigned"
+	> DELAY DI 30 SECONDI
+	> SCRIVERE "Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1')) "
+	> SCRIVERE "choco install python"
+	> (prepara con Mancio tutti i Y da inserire nell'installazione)
+	

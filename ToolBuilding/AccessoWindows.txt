@@ -1,0 +1,4 @@
+Accesso all'utente Windows
+Preparare chiavetta con l'iso di KaliLinux e eseguire il reboot con il
+sistema operativo della chiavetta, andare nei file manager del disco e 
+il tool chntpw modificare la SAM e riavviare il PC...
